@@ -51,14 +51,16 @@
     align-items: flex-start;
     height: auto;
   }
+  .link-items {
+    display: none;
+    width: 100%;
+  }
   .link-items ul {
     flex-direction: column;
     width: 100%;
-    display: none;
   }
   .link-items li {
     text-align: center;
-    /* padding-top: 40px; */
   }
 
   .logo {
