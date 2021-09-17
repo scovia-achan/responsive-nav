@@ -49,23 +49,22 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    height: auto;
+    /* height: auto; */
   }
-  .link-items {
-    display: none;
-    width: 100%;
-  }
+
   .link-items ul {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .link-items {
+    display: none;
     width: 100%;
   }
   .link-items li {
     text-align: center;
   }
 
-  .logo {
-    text-align: left;
-  }
   .toggle-btn {
     display: flex;
   }
